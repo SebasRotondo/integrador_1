@@ -64,7 +64,7 @@ body {
     padding-top: 135px;
     display: grid;
     grid-template-columns: 75% 24%;
-    grid-template-rows: 1fr 1fr 1fr 0.8fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "contenido_inicio       contenido_lista"
         "contenido_personajes   contenido_personajes"
@@ -112,8 +112,12 @@ body {
 
 .contenido_encuesta {
     grid-area: contenido_encuesta;
-    padding-top: 50vh;
-    margin-left: 30px;
+    display: flex;
+    /*padding-top: 50vh;
+    margin-left: 30px;*/
+    /*padding-top: 1vh;*/
+    justify-content: center;
+    padding-bottom: 0;
 }
 
 .contenido_inicio h1 {
@@ -257,12 +261,13 @@ body {
 }
 
 .formulario {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    /*width: 50vw;*/
     justify-content: center;
     text-align: center;
+    padding-bottom: 0;
 }
 .caja {
     display: flex;
