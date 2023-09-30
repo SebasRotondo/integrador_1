@@ -12,7 +12,6 @@
     background-color: #ff1493;
     */
 
-
 }
 
 body {
@@ -35,7 +34,6 @@ body {
 .imagen__logo {
     padding-top: 5px;
     width: 65px;
-
 
 }
 
@@ -113,9 +111,6 @@ body {
 .contenido_encuesta {
     grid-area: contenido_encuesta;
     display: flex;
-    /*padding-top: 50vh;
-    margin-left: 30px;*/
-    /*padding-top: 1vh;*/
     justify-content: center;
     padding-bottom: 0;
 }
@@ -184,7 +179,6 @@ body {
     justify-content: center;
     align-items: center;
 
-
 }
 
 .nombre_tarjeta {
@@ -209,8 +203,6 @@ body {
     width: 15vw;
     opacity: 0.8;
     cursor: pointer;
-
-
 
 }
 
@@ -237,7 +229,6 @@ body {
 }
 
 .titulo_temporadas {
-
     font-size: 3rem;
 
 }
@@ -249,22 +240,15 @@ body {
     font-size: 2rem;
     margin: 10px;
 
-
-
 }
 
 .titulo_encuesta {
     font-size: 2rem;
-    
-    
-
 }
 
 .formulario {
-    /*margin-left: 150px;*/
     display: flex;
     flex-direction: column;
-    /*width: 50vw;*/
     justify-content: center;
     text-align: center;
     padding-bottom: 0;
